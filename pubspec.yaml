@@ -1,0 +1,29 @@
+name: healthway
+description: HealthWay - نسخه آفلاین (RTL، چندبیماره، فرم‌ها و داشبورد)
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  shamsi_date: ^2.1.0
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: IranSans
+      fonts:
+        - asset: assets/fonts/IranSans.ttf
